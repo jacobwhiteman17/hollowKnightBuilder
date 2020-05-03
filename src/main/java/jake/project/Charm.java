@@ -15,6 +15,10 @@ public class Charm {
         return name;
     }
 
+    public String getDescription(){
+        return description;
+    }
+
     public int getNotchReq(){
         return notchesRequired;
     }

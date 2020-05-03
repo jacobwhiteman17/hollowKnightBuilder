@@ -17,7 +17,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         Parent root = null;
-        var loc = getClass().getResource("/jake/project/Builder.fxml");
+        var loc = getClass().getResource("Builder.fxml");
         try{
             root = FXMLLoader.load(loc);
         }catch (IOException e) {
