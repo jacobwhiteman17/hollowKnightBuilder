@@ -26,6 +26,6 @@ public class Main extends Application {
         Scene windowContents = new Scene(root,1600,1024);
         primaryStage.setScene(windowContents);
         primaryStage.setTitle("Hollow Knight Build Creator");
-        primaryStage.show();
+        //primaryStage.show();
     }
 }
